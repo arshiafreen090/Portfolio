@@ -76,7 +76,7 @@ Run locally
 
 The site will be available at:
 ```arduino
-  http://localhost:5173
+  http://[localhost:5173](https://www.afreen.tech/)
 ```
     
 ## 📌Features
