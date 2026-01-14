@@ -58,26 +58,53 @@ Portfolio/
 └── tsconfig*.json
 
 ```
-## 🚀Installation
-Prerequisites
+## ⚙️ Installation & Local Setup
 
-• Node.js (v18 or later recommended)
-• npm
+### Prerequisites
+```text
+Node.js (v18 or later)
+npm
+```
 
-Install
+### Clone the Repository
 ```bash
- npm install
+git clone https://github.com/arshiafreen090/Portfolio.git
+cd Portfolio
 ```
 
-Run locally
+### Install Dependencies
 ```bash
-  npm run dev
+npm install
 ```
 
-The site will be available at:
-```arduino
-  http://[localhost:5173](https://www.afreen.tech/)
+### Run the Development Server
+```bash
+npm run dev
 ```
+
+```text
+The development server will run at:
+http://localhost:5173
+```
+
+> Note: This URL is for local development only and is not publicly accessible.
+
+### Build for Production
+```bash
+npm run build
+```
+
+```text
+This command generates an optimized production build in the dist/ directory.
+```
+
+---
+
+## 🌐 Live Website
+```text
+https://www.afreen.tech/
+```
+
     
 ## 📌Features
 
