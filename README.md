@@ -2,8 +2,8 @@
 # 🌸Afreen Aurshi-Portfolio Website
 
 This repository contains my personal portfolio website, designed and built to showcase my work, skills, and creative direction as a Graphic Designer with a design-first mindset.
-
 The project is inspired by my original Figma design and focuses on clean visuals, subtle interactions, and a minimal yet expressive layout.
+
 ![React](https://img.shields.io/badge/React-18-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5-purple?logo=vite)
 ![TypeScript](https://img.shields.io/badge/TypeScript-4-blue?logo=typescript)
