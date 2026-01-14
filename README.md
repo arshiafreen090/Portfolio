@@ -31,16 +31,16 @@ Design Tool: Figma
 ## 🛠Tech Stack
 Frontend
 
-• React (TypeScript) – component-based UI
-• Vite – fast development and build tool
-• Tailwind CSS – utility-first styling
+- React (TypeScript) – component-based UI
+- Vite – fast development and build tool
+- Tailwind CSS – utility-first styling
 
 Styling & Tooling
 
-• PostCSS & Autoprefixer
-• ESLint – code quality
-• TypeScript configuration
-• Git & GitHub – version control
+- PostCSS & Autoprefixer
+- ESLint – code quality
+- TypeScript configuration
+- Git & GitHub – version control
 ## 📁 Project Structure
 
 ```php
@@ -123,10 +123,9 @@ https://www.afreen.tech/
 This portfolio was created to:
 - Present my creative work and skills
 - Serve as a professional portfolio for opportunities
-
 - Experiment with design-to-development workflow
-
 - Maintain strong alignment between design and implementation
+
 ## Documentation
 
 - [PRD.md](https://PRD.md)- Contains the Product Requirements Document describing design intent, scope, and behavior.
