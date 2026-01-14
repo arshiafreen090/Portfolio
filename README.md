@@ -4,18 +4,22 @@
 This repository contains my personal portfolio website, designed and built to showcase my work, skills, and creative direction as a Graphic Designer with a design-first mindset.
 
 The project is inspired by my original Figma design and focuses on clean visuals, subtle interactions, and a minimal yet expressive layout.
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-5-purple?logo=vite)
+![TypeScript](https://img.shields.io/badge/TypeScript-4-blue?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3-teal?logo=tailwindcss)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
+
+[![Live Website](https://img.shields.io/badge/Live-Website-green)](https://www.afreen.tech/)
+[![GitHub](https://img.shields.io/badge/GitHub-arshiafreen090-black?logo=github)](https://github.com/arshiafreen090)
 
 
 
 ## ✨Overview
 -  Design-centric portfolio website
-
 - Clean and minimal hero section
-
 - Smooth scrolling and subtle animations
-
 - Responsive layout for different screen sizes
-
 - Organized and scalable project structure
 
 This portfolio represents my creative journey and experimentation with modern front-end tools while keeping the original design aesthetics intact.
@@ -58,6 +62,8 @@ Portfolio/
 └── tsconfig*.json
 
 ```
+
+
 ## ⚙️ Installation & Local Setup
 
 ### Prerequisites
