@@ -25,10 +25,9 @@ The project is inspired by my original Figma design and focuses on clean visuals
 This portfolio represents my creative journey and experimentation with modern front-end tools while keeping the original design aesthetics intact.
 ## 🎨Design
 Design Tool: Figma
+- The visual layout, colors, illustrations, and typography are based on my original Figma design.
+- All design assets are preserved without redesigning or altering the original concept.
 
-The visual layout, colors, illustrations, and typography are based on my original Figma design.
-
-All design assets are preserved without redesigning or altering the original concept.
 ## 🛠Tech Stack
 Frontend
 
