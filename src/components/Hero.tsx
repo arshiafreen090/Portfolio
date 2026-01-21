@@ -51,10 +51,10 @@ const Hero = () => {
                     </div>
 
                     {/* 2. Central Hero Image */}
-                    <div className="relative w-full max-w-3xl h-[45vh] md:h-[60vh] flex justify-center items-center mb-10">
+                    <div className="relative w-full max-w-3xl h-[40vh] md:h-[55vh] flex justify-center items-center mb-8 md:mb-12">
                         <motion.div
                             initial={{ opacity: 0, scale: 0.9 }}
-                            animate={{ opacity: 1, scale: 1.5 }}
+                            animate={{ opacity: 1, scale: [1, 1.1, 1.05] }}
                             transition={{ delay: 0.1, duration: 1.2, ease: "circOut" }}
                             className="relative z-10 w-full h-full flex justify-center"
                         >
@@ -67,17 +67,18 @@ const Hero = () => {
                     </div>
 
                     {/* 3. Branding Typography */}
-                    <div className="space-y-4 flex flex-col items-center">
+                    <div className="space-y-4 flex flex-col items-center w-full">
                         <motion.div
                             initial={{ opacity: 0, y: 15 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.5, duration: 0.8 }}
+                            className="w-full"
                         >
                             <GradientText
                                 colors={["#FFB3D9", "#FF9FFC", "#B19EEF", "#FFB3D9"]}
                                 animationSpeed={5}
                                 showBorder={false}
-                                className="text-5xl md:text-8xl font-bold font-heading leading-tight italic"
+                                className="text-4xl sm:text-5xl md:text-8xl font-bold font-heading leading-tight italic px-2"
                             >
                                 Graphic Designer
                             </GradientText>

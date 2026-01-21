@@ -68,15 +68,14 @@ const PortfolioCarousel = () => {
                     <h2 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-white">
                         Portfolio <span className="text-brand-pink">Showcase</span>
                     </h2>
-                    <p className="text-gray-400 max-w-2xl mx-auto">
-                        "Hey there! Check out my work by clicking through each carousel.
-                        For the best experience, view it on desktop!"
+                    <p className="text-gray-400 max-w-2xl mx-auto px-4">
+                        Explore my latest work and creative projects. Each piece is crafted with attention to detail and a focus on visual impact.
                     </p>
                 </div>
 
                 <div className="relative max-w-5xl mx-auto">
                     {/* Main Carousel Display */}
-                    <div className="relative aspect-video md:aspect-[21/9] bg-brand-dark rounded-3xl overflow-hidden shadow-2xl border border-white/5 group">
+                    <div className="relative min-h-[600px] md:min-h-0 md:aspect-[21/9] bg-brand-dark rounded-3xl overflow-hidden shadow-2xl border border-white/5 group">
                         <AnimatePresence mode='wait'>
                             <motion.div
                                 key={currentIndex}
@@ -87,36 +86,36 @@ const PortfolioCarousel = () => {
                                 className="absolute inset-0 flex flex-col md:flex-row"
                             >
                                 {/* Image Side */}
-                                <div className="w-full md:w-2/3 h-64 md:h-full relative overflow-hidden bg-black/20 flex items-center justify-center p-4">
+                                <div className="w-full md:w-2/3 h-72 md:h-full relative overflow-hidden bg-black/20 flex items-center justify-center p-6">
                                     <img
                                         src={portfolioItems[currentIndex].image}
                                         alt={portfolioItems[currentIndex].title}
-                                        className="max-w-full max-h-full object-contain transition-transform duration-700 hover:scale-105"
+                                        className="max-w-full max-h-full object-contain transition-transform duration-700 hover:scale-105 z-10"
                                     />
                                     <div className={`absolute inset-0 bg-gradient-to-r ${portfolioItems[currentIndex].color} opacity-10 mix-blend-overlay pointer-events-none`} />
                                 </div>
 
                                 {/* Content Side */}
-                                <div className="w-full md:w-1/3 h-full bg-neutral-900/95 backdrop-blur-md p-8 flex flex-col justify-center border-l border-white/5">
+                                <div className="w-full md:w-1/3 flex-1 bg-neutral-900/95 backdrop-blur-md p-8 md:p-10 flex flex-col justify-center border-t md:border-t-0 md:border-l border-white/5">
                                     <motion.div
                                         initial={{ opacity: 0, x: 20 }}
                                         animate={{ opacity: 1, x: 0 }}
                                         transition={{ delay: 0.2 }}
                                     >
-                                        <span className="text-brand-pink text-sm tracking-wider uppercase font-bold mb-2 block">
+                                        <span className="text-brand-pink text-xs md:text-sm tracking-wider uppercase font-bold mb-2 block">
                                             {portfolioItems[currentIndex].category}
                                         </span>
-                                        <h3 className="text-3xl font-bold text-white mb-4 line-clamp-2">
+                                        <h3 className="text-2xl md:text-3xl font-bold text-white mb-4 line-clamp-2">
                                             {portfolioItems[currentIndex].title}
                                         </h3>
-                                        <p className="text-gray-400 mb-8 leading-relaxed">
+                                        <p className="text-gray-400 mb-6 md:mb-8 leading-relaxed text-sm md:text-base">
                                             {portfolioItems[currentIndex].description}
                                         </p>
                                         <a
                                             href={portfolioItems[currentIndex].link}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center gap-2 text-white hover:text-brand-pink transition-colors group/btn"
+                                            className="inline-flex items-center gap-2 text-white hover:text-brand-pink transition-colors group/btn font-semibold"
                                         >
                                             View Details <ExternalLink size={18} className="group-hover/btn:translate-x-1 transition-transform" />
                                         </a>
@@ -125,16 +124,18 @@ const PortfolioCarousel = () => {
                             </motion.div>
                         </AnimatePresence>
 
-                        {/* Navigation Buttons */}
+                        {/* Navigation Buttons - Hidden on very small screens or moved */}
                         <button
                             onClick={prevSlide}
-                            className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-black/50 hover:bg-brand-pink hover:text-brand-dark text-white rounded-full flex items-center justify-center backdrop-blur-sm transition-all z-20"
+                            className="absolute left-2 md:left-4 top-[35%] md:top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 bg-black/50 hover:bg-brand-pink hover:text-brand-dark text-white rounded-full flex items-center justify-center backdrop-blur-sm transition-all z-20 border border-white/10"
+                            aria-label="Previous Slide"
                         >
                             <ChevronLeft size={24} />
                         </button>
                         <button
                             onClick={nextSlide}
-                            className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-black/50 hover:bg-brand-pink hover:text-brand-dark text-white rounded-full flex items-center justify-center backdrop-blur-sm transition-all z-20"
+                            className="absolute right-2 md:right-4 top-[35%] md:top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 bg-black/50 hover:bg-brand-pink hover:text-brand-dark text-white rounded-full flex items-center justify-center backdrop-blur-sm transition-all z-20 border border-white/10"
+                            aria-label="Next Slide"
                         >
                             <ChevronRight size={24} />
                         </button>
