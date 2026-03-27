@@ -8,7 +8,7 @@ const portfolioItems = [
         title: "Previous work Assets",
         category: "Internship Experience",
         description: "An eye-catching collection of web surfaces and dynamic static posts driving digital engagement during my internship.",
-        image: "/assets/portfolio/connecttly.png",
+        image: "/assets/portfolio/connecttly_assets.png",
         color: "from-blue-500 to-indigo-900",
         link: "https://drive.google.com/drive/folders/1NiVgqUu2Abazks7QbQ-2T8RauxMYrMv3?usp=sharing"
     },
