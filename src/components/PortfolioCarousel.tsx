@@ -5,6 +5,15 @@ import { ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
 const portfolioItems = [
     {
         id: 1,
+        title: "Internship Selection Task",
+        category: "Creative Assignment",
+        description: "Assignment for the internship where I got selected, showcasing high-impact design and creative execution.",
+        image: "/assets/portfolio/goa_1.png",
+        color: "from-purple-500 to-brand-dark",
+        link: "https://canva.link/i5q29hv1qs984gd"
+    },
+    {
+        id: 2,
         title: "Previous work Assets",
         category: "Internship Experience",
         description: "An eye-catching collection of web surfaces and dynamic static posts driving digital engagement during my internship.",
@@ -13,7 +22,7 @@ const portfolioItems = [
         link: "https://drive.google.com/drive/folders/1NiVgqUu2Abazks7QbQ-2T8RauxMYrMv3?usp=sharing"
     },
     {
-        id: 2,
+        id: 3,
         title: "Fashwash Commercial",
         category: "Skincare Ad",
         description: "Skincare Ad (Niacinamide Bottle) showcasing product elegance.",
@@ -22,7 +31,7 @@ const portfolioItems = [
         link: "https://www.canva.com/design/DAGxkdHoI9Y/4FOujOgAuHclfljfWHJ4Tw/edit"
     },
     {
-        id: 3,
+        id: 4,
         title: "NIKE AIR",
         category: "Marketing Poster",
         description: "Nike SB Dunk Ad Poster. A dynamic marketing poster design.",
@@ -31,7 +40,7 @@ const portfolioItems = [
         link: "https://www.canva.com/design/DAG0uU9jkro/mo13FafxKIfOAk4bPH8xHQ/edit"
     },
     {
-        id: 4,
+        id: 5,
         title: "ICED COFFEE",
         category: "Poster Design",
         description: "Vintage aesthetics for a modern coffee brand.",
@@ -40,7 +49,7 @@ const portfolioItems = [
         link: "https://www.canva.com/design/DAGxWYcdjFU/fmn0c3a4CQ5eJoVj-CsmfQ/edit"
     },
     {
-        id: 5,
+        id: 6,
         title: "BISSELL BLEND",
         category: "Branding",
         description: "Product promotion with sleek typography.",
@@ -49,7 +58,7 @@ const portfolioItems = [
         link: "https://www.canva.com/design/DAGw93d-4Js/0zhwRT4NCWjs2ve7ywJbaA/edit"
     },
     {
-        id: 6,
+        id: 7,
         title: "Personal Brand",
         category: "Illustration",
         description: "Custom illustration card for personal identity.",
